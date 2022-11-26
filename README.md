@@ -1,7 +1,7 @@
 # Samsung Galaxy A41 [SM-A415F] [a41xx] - Team Win Recovery Project
 [Telegram Support Group](https://t.me/a31nsxx)
 ```diff
-- TWRP Status: Bugfixing, experimental, unstable. 
++ TWRP Status: Mostly Stable. 
 - Releases tagged as "Pre-release" are considered experimental and may cause more unexpected stuff than the latest release, nobody is forced to support your in older releases.
 ```
 Set the ``TW_CUSTOM_THEME``flag for a custom theme.
