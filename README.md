@@ -8,7 +8,7 @@ Set the ``TW_CUSTOM_THEME``flag for a custom theme.
 
 Build with twrp-11 to avoid the recovery.img being bigger than the partition.
 
-Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
+Run ``chmod +x device/samsung/a41/mkbootimg`` to avoid building issues.
 ### Special thanks to:
 > [TeamWin](https://github.com/TeamWin) for the Recovery Project.
 > 
