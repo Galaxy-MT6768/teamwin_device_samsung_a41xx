@@ -125,7 +125,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 200
 TW_USE_SAMSUNG_HAPTICS := true
-# Remove these flash when building SHRP
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 
@@ -147,27 +146,3 @@ TW_MTP_DEVICE := "Galaxy A41"
 # Making the recovery.img smaller
 BOARD_HAS_NO_REAL_SDCARD := true
 
-# SHRP
-SHRP_DEVICE_CODE := a41
-SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
-SHRP_MAINTAINER := Zillion
-SHRP_REC_TYPE := Normal
-SHRP_DEVICE_TYPE := A_Only
-SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
-SHRP_EDL_MODE := 1
-SHRP_INTERNAL := /sdcard
-SHRP_EXTERNAL := /external_sd
-SHRP_OTG := /usb_otg
-SHRP_NO_SAR_AUTOMOUNT := true
-
-SHRP_STATUSBAR_RIGHT_PADDING := 20
-SHRP_STATUSBAR_LEFT_PADDING := 20
-SHRP_NOTCH := true
-SHRP_EXPRESS := true
-SHRP_LITE := true
-
-# Flashlight
-SHRP_FLASH := 1
-SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
-SHRP_FLASH_MAX_BRIGHTNESS := 1
